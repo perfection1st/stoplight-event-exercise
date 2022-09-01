@@ -17,9 +17,14 @@ body {
   padding: 20px;
   text-align: center;
 }
+.button:hover {
+  background-color: #555;
+}
 
 #traffic-light {
-  background-color: #ababab;
+  background-color: #282828;
+  border:1px solid #656565;
+  outline:3px solid #000;
   border-radius: 40px;
   margin: 30px 0;
   height: 550px;
@@ -29,11 +34,15 @@ body {
 
 .bulb {
   background-color: #111;
+  border:1px solid #282828;
   border-radius: 50%;
   margin: 25px auto;
   height: 150px;
   transition: background 300ms;
   width: 150px;
+}
+.bulb:hover {
+  background-color:#181818;
 }
 
 .stop {
